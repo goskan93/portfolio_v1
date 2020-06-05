@@ -1,0 +1,9 @@
+.Chip {
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  margin: 0.2rem;
+  border: 1px solid #006730;
+  color: #006730;
+  border-radius: 0.7rem;
+  background-color: #ddd;
+}

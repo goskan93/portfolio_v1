@@ -1,17 +1,14 @@
 .Button {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
-  font-size: 1.1rem;
-  padding: 0.5rem 2rem;
+  font-size: 1.7rem;
+  padding: 0.4rem 2.5rem;
   border-radius: 0.3rem;
   color: #eee;
   text-align: center;
-}
-
-.Button span {
-  font-weight: 600;
-  padding: 0 0.3rem;
 }
 
 .Button:focus {
@@ -34,23 +31,4 @@
 
 .ButtonCode:hover {
   background-color: #1a519b;
-}
-
-.ButtonShow {
-  cursor: pointer;
-  padding: 0.5rem;
-  height: 3rem;
-  width: 3rem;
-  font-size: 1rem;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  float: right;
-}
-.ButtonShow svg {
-  padding: 0.5rem 0;
-}
-
-.ButtonShow:hover {
-  background-color: #eee;
 }
