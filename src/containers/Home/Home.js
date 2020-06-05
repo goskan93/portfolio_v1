@@ -13,12 +13,6 @@ const Home = () => {
     <Layout click={sectionHandler}>
       <section>Photo and info</section>
       {section}
-      {/* 
-      <section>
-        <article>About</article>
-        <article>Projects</article>
-        <article>CV</article>
-      </section> */}
     </Layout>
   );
 };

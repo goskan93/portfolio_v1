@@ -13,16 +13,15 @@ export const ButtonCV = () => {
   );
 };
 
-export const ButtonCode = () => (
-  <a href="/" className="Button ButtonCode">
+export const ButtonCode = (props) => (
+  <a href={props.page} className="Button ButtonCode" target="_blank" rel="noopener noreferrer">
     <FaGithub />
-    {/* <span>Code</span> */}
   </a>
 );
 
-export const ButtonWeb = () => {
+export const ButtonWeb = (props) => {
   return (
-    <a href="/" className="Button ButtonPaper">
+    <a href={props.page} className="Button ButtonPaper" target="_blank" rel="noopener noreferrer">
       <IoIosGlobe />
     </a>
   );
