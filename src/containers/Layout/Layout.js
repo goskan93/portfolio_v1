@@ -1,8 +1,9 @@
 import React from "react";
 import "./Layout.css";
 import About from "../About/About";
-import CV from "../CV/CV";
 import Projects from "../Projects/Projects";
+import Pdf from "../../assets/cv.pdf";
+
 const Layout = (props) => {
   const { click } = props;
   return (
@@ -11,7 +12,9 @@ const Layout = (props) => {
         <nav>
           <div onClick={() => click(About)}>About me</div>
           <div onClick={() => click(Projects)}>Projects</div>
-          <div onClick={() => click(CV)}>CV</div>
+          <a href={Pdf} target="_blank" rel="noopener noreferrer">
+            CV
+          </a>
         </nav>
       </header>
       <main className="Main">{props.children}</main>

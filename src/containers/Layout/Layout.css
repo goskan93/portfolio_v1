@@ -25,32 +25,42 @@
   align-items: center;
 }
 
-.Header div {
+.Header div,
+.Header a {
   height: 100%;
   width: auto;
   padding: 1rem;
   box-sizing: border-box;
   color: #eee;
+  font-weight: 300;
+}
+.Header a {
+  text-decoration: none;
 }
 
-.Header div:active {
-  color: #1ab37c;
+.Header div:active,
+.Header a:active {
+  color: #006730;
   background-color: #ddd;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
+.Main {
+  margin-top: 4rem;
+  width: 90%;
+  margin: 4rem auto 0 auto;
+}
 
 @media (min-width: 700px) {
   .Header div:hover,
-  .Header div:active {
-    color: #1ab37c;
+  .Header a:hover {
+    color: #006730;
     background-color: #ddd;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     cursor: pointer;
   }
-}
-
-.Main {
-  margin-top: 4rem;
+  .Main {
+    width: 70%;
+  }
 }

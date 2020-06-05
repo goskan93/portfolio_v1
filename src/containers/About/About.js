@@ -1,6 +1,11 @@
 import React from "react";
+import { ButtonCV } from "../../components/Button/Button";
 const About = () => {
-  return <article>About</article>;
+  return (
+    <article>
+      <ButtonCV />
+    </article>
+  );
 };
 
 export default About;
