@@ -1,0 +1,56 @@
+.Layout {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: #eee;
+}
+
+.Header {
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+  background-color: #282c34;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+}
+.Header nav {
+  display: flex;
+  height: 100%;
+  width: auto;
+  align-items: center;
+}
+
+.Header div {
+  height: 100%;
+  width: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #eee;
+}
+
+.Header div:active {
+  color: #1ab37c;
+  background-color: #ddd;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+@media (min-width: 700px) {
+  .Header div:hover,
+  .Header div:active {
+    color: #1ab37c;
+    background-color: #ddd;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    cursor: pointer;
+  }
+}
+
+.Main {
+  margin-top: 4rem;
+}
