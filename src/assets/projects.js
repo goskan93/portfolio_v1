@@ -1,11 +1,12 @@
 import recipesGif from "./recipes-app.gif";
 import guessNumberGif from "./guess-number-app.gif";
+import cvImage from "./cv-page.PNG";
 
 export default [
   {
     title: "Curriculum Vitae",
     description: "Create your own CV with ready template! ",
-    image: "",
+    image: cvImage,
     codeUrl: "https://github.com/goskan93/curriculum-vitae",
     projectUrl: "https://goskan93.github.io/curriculum-vitae/",
     technologies: ["react", "redux", "materialUI"],
