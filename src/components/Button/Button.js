@@ -29,7 +29,7 @@ export const ButtonWeb = (props) => {
 
 export const ButtonMedia = (props) => {
   return (
-    <a href={props.page} className="ButtonMedia">
+    <a href={props.page} className="ButtonMedia" target="_blank" rel="noopener noreferrer">
       {props.children}
     </a>
   );

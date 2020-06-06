@@ -19,10 +19,10 @@ const Main = () => {
           <p>Looking for new opportunieties as Frontend Develper in React.js</p>
         </div>
         <div className="Media-Buttons">
-          <ButtonMedia>
+          <ButtonMedia page="https://github.com/goskan93">
             <FaGithub />
           </ButtonMedia>
-          <ButtonMedia>
+          <ButtonMedia page="https://www.linkedin.com/in/natalia-goska/">
             <FaLinkedin />
           </ButtonMedia>
         </div>
