@@ -4,9 +4,9 @@
   width: 100%;
   box-sizing: border-box;
   border-radius: 1rem;
-  box-shadow: 0 8px 42px -8px rgba(255, 255, 255, 0.2);
-  background-color: #ddd;
-  color: #282c34;
+  box-shadow: 0 8px 42px -8px rgba(255, 255, 255, 0.3);
+  background-color: #282c34;
+  color: #ddd;
 }
 
 .Card-Actions {
@@ -14,6 +14,14 @@
   justify-content: space-around;
   align-items: center;
 }
+.Card-Image img {
+  height: 250px;
+}
+.Card-Image {
+  display: flex;
+  justify-content: center;
+}
+
 .Buttons-Actions {
   flex-grow: 2;
 }
@@ -41,7 +49,7 @@ h5 {
   .Card-Content {
     flex: 3;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 0 0.5rem;
   }
@@ -49,7 +57,12 @@ h5 {
   .Card-Actions {
     flex: 1;
     flex-direction: column;
+    justify-content: flex-start;
     padding: 0 0.5rem;
+  }
+
+  .Card-Actions a {
+    margin-bottom: 1rem;
   }
 }
 

@@ -1,3 +1,6 @@
+import recipesGif from "./recipes-app.gif";
+import guessNumberGif from "./guess-number-app.gif";
+
 export default [
   {
     title: "Curriculum Vitae",
@@ -18,17 +21,17 @@ export default [
   {
     title: "Recipes",
     description: "Find the best recipes from all over the world.",
-    image: "",
+    image: recipesGif,
     codeUrl: "https://github.com/goskan93/recipes-app",
     projectUrl: "https://expo.io/@goskan93/meal-app?release-channel=recipes-app",
-    technologies: ["react-native", "react-navigation"],
+    technologies: ["expo", "react-native", "redux", "react-navigation"],
   },
   {
     title: "Guess the number app",
     description: "Let your opponent guess the number.",
-    image: "",
+    image: guessNumberGif,
     codeUrl: "https://github.com/goskan93/guess-number-app",
     projectUrl: "https://expo.io/@goskan93/guess-number-app?release-channel=guess-number-app",
-    technologies: ["react-native"],
+    technologies: ["expo", "react-native"],
   },
 ];

@@ -15,7 +15,9 @@ const SkillTable = () => {
         <tbody>
           <tr>
             <td>HTML/CSS/JS</td>
-            <td>React.js</td>
+            <td>
+              <span>React.js</span>
+            </td>
             <td>SCSS</td>
             <td>node.js</td>
           </tr>
@@ -28,7 +30,7 @@ const SkillTable = () => {
           <tr>
             <td>C#/Python</td>
             <td></td>
-            <td></td>
+            <td>Typescript</td>
             <td>GraphQL</td>
           </tr>
           <tr>
