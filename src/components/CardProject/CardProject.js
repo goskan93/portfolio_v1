@@ -8,7 +8,7 @@ const Card = (props) => {
     <div className="Card">
       <section className="Card-Main">
         <div className="Card-Image">
-          <img alt="" />
+          <img alt="" src={image} />
         </div>
         <div className="Card-Content">
           <div>

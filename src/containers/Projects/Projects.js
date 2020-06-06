@@ -5,7 +5,13 @@ const Projects = () => {
   return (
     <article>
       {projects.map((project) => (
-        <Card title={project.title} description={project.description} codeUrl={project.codeUrl} technologies={project.technologies} />
+        <Card
+          title={project.title}
+          description={project.description}
+          codeUrl={project.codeUrl}
+          technologies={project.technologies}
+          projectUrl={project.projectUrl}
+        />
       ))}
     </article>
   );
