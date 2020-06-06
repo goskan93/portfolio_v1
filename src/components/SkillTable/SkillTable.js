@@ -20,13 +20,13 @@ const SkillTable = () => {
             <td>node.js</td>
           </tr>
           <tr>
-            <td>C#/Python</td>
+            <td>React Native/Redux</td>
             <td></td>
             <td>Jest/Enzyme</td>
             <td>MongoDB</td>
           </tr>
           <tr>
-            <td>React Native/Redux</td>
+            <td>C#/Python</td>
             <td></td>
             <td></td>
             <td>GraphQL</td>

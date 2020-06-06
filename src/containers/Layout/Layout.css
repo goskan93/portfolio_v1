@@ -34,17 +34,10 @@
   box-sizing: border-box;
   color: #eee;
   font-weight: 300;
+  transition: all 0.2s ease-in-out;
 }
 .Header a {
   text-decoration: none;
-}
-
-.Header div:active,
-.Header a:active {
-  color: #006730;
-  background-color: #ddd;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
 }
 
 @media (min-width: 700px) {
@@ -52,8 +45,7 @@
   .Header a:hover {
     color: #006730;
     background-color: #ddd;
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+
     cursor: pointer;
   }
 }
