@@ -32,3 +32,17 @@
 .ButtonCode:hover {
   background-color: #1a519b;
 }
+
+.ButtonMedia {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.ButtonMedia:hover {
+  color: #1a9b64;
+}

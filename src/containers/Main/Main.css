@@ -1,0 +1,42 @@
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Info-Container h2,
+.Info-Container h3,
+.Info-Container p {
+  margin: 0.3rem 0;
+}
+.Image-Container img {
+  height: 200px;
+}
+
+@media (min-width: 600px) {
+  .Main-Container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+  }
+  .Image-Container {
+    margin-right: 1rem;
+  }
+
+  .Info-Container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Info-Container h2 {
+    margin-top: 0;
+  }
+  .Media-Buttons {
+    display: flex;
+    align-items: center;
+  }
+}

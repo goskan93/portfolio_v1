@@ -26,3 +26,11 @@ export const ButtonWeb = (props) => {
     </a>
   );
 };
+
+export const ButtonMedia = (props) => {
+  return (
+    <a href={props.page} className="ButtonMedia">
+      {props.children}
+    </a>
+  );
+};
