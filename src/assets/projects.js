@@ -20,7 +20,15 @@ export default [
     description: "Find the best recipes from all over the world.",
     image: "",
     codeUrl: "https://github.com/goskan93/recipes-app",
-    projectUrl: "",
+    projectUrl: "https://expo.io/@goskan93/meal-app?release-channel=recipes-app",
+    technologies: ["react-native", "react-navigation"],
+  },
+  {
+    title: "Guess the number app",
+    description: "Let your opponent guess the number.",
+    image: "",
+    codeUrl: "https://github.com/goskan93/guess-number-app",
+    projectUrl: "https://expo.io/@goskan93/guess-number-app?release-channel=guess-number-app",
     technologies: ["react-native"],
   },
 ];

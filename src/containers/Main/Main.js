@@ -16,7 +16,7 @@ const Main = () => {
             email: <span>natalia.goska@gmail.com</span>
           </h3>
           <p>Originally from Poland, currently in Brazil.</p>
-          <p>Looking for new opportunieties as Frontend Develper in React.js</p>
+          <p>Looking for new opportunieties as Frontend Develper in React.js.</p>
         </div>
         <div className="Media-Buttons">
           <ButtonMedia page="https://github.com/goskan93">

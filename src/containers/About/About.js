@@ -1,25 +1,30 @@
 import React from "react";
 import Info from "../../components/Info/Info";
-
+import SkillTable from "../../components/SkillTable/SkillTable";
 const About = () => {
   return (
     <article>
       <Info title="About me">
-        <p>
-          HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series
-          of elements. HTML elements tell the browser how to display the content.
-        </p>
+        <p></p>
+        <SkillTable />
       </Info>
       <Info title="Work">
         <p>
-          HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series
-          of elements. HTML elements tell the browser how to display the content.
+          The most interesting experience I acquired in my current job in Brazil as System Developer (web application). In a short amount of
+          time I had to learn portuguese and all technologies needed for web development. After some time I was assigned to create the
+          mobile application for our clients, and that was the moment I got know React Native technology, and got interested in React.js and
+          frontend development. Before that, I worked few months as Junior SAP Developer, where I had opportunity to work in an
+          international team.
         </p>
       </Info>
       <Info title="Education">
         <p>
-          HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series
-          of elements. HTML elements tell the browser how to display the content.
+          I graduated my studies in Applied Mathematics in Wroclaw University of Science and Techonology (Poland) which I finished with
+          Master of Science degree. The studies helped me to develop analytical and logical skills and I also learned how to acquire the
+          knowledge in a fast way. During that time I have been an active student, that took part in extra activities, such as being a part
+          of scientific circle of FInancial Engineering where after some time, I became a chairman of this organization and lead the biggest
+          student project in the Department of Mathemtics - Polish Nationwide Mathematical Conference "OMatKo!!!". I also spent one semester
+          abroad in Portugal where I improve my english and communication skills.
         </p>
       </Info>
     </article>

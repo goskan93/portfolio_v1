@@ -1,0 +1,33 @@
+.Table-Container {
+  overflow-x: auto;
+}
+
+.Skill-Table {
+  margin: auto;
+  text-align: center;
+}
+
+.Skill-Table th {
+  padding: 0.5rem;
+  transition: all 0.3s linear;
+}
+.Skill-Table td {
+  padding: 0.1rem 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.Skill-Table thead {
+  background-color: #1f6bcd;
+}
+.Skill-Table th:hover {
+  background-color: #1a519b;
+}
+
+@media (min-width: 950px) {
+  .Table-Container {
+    overflow-x: hidden;
+  }
+  .Skill-Table th {
+    min-width: 11rem;
+  }
+}
