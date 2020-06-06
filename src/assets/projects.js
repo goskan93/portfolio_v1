@@ -1,6 +1,7 @@
 import recipesGif from "./recipes-app.gif";
 import guessNumberGif from "./guess-number-app.gif";
 import cvImage from "./cv-page.PNG";
+import playgroundGif from "./playground-page.gif";
 
 export default [
   {
@@ -14,7 +15,7 @@ export default [
   {
     title: "Playground",
     description: "Play online for free.",
-    image: "",
+    image: playgroundGif,
     codeUrl: "https://github.com/goskan93/playground",
     projectUrl: "",
     technologies: ["react", "react-router"],
