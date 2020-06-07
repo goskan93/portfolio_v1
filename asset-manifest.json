@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio_v1/static/css/main.ddee4edd.chunk.css",
+    "main.js": "/portfolio_v1/static/js/main.bc3de487.chunk.js",
+    "main.js.map": "/portfolio_v1/static/js/main.bc3de487.chunk.js.map",
+    "runtime-main.js": "/portfolio_v1/static/js/runtime-main.4cf190ed.js",
+    "runtime-main.js.map": "/portfolio_v1/static/js/runtime-main.4cf190ed.js.map",
+    "static/js/2.88d35f12.chunk.js": "/portfolio_v1/static/js/2.88d35f12.chunk.js",
+    "static/js/2.88d35f12.chunk.js.map": "/portfolio_v1/static/js/2.88d35f12.chunk.js.map",
+    "index.html": "/portfolio_v1/index.html",
+    "precache-manifest.d95e959cb6fec76678a31fedb50a44d6.js": "/portfolio_v1/precache-manifest.d95e959cb6fec76678a31fedb50a44d6.js",
+    "service-worker.js": "/portfolio_v1/service-worker.js",
+    "static/css/main.ddee4edd.chunk.css.map": "/portfolio_v1/static/css/main.ddee4edd.chunk.css.map",
+    "static/js/2.88d35f12.chunk.js.LICENSE.txt": "/portfolio_v1/static/js/2.88d35f12.chunk.js.LICENSE.txt",
+    "static/media/cv-page.PNG": "/portfolio_v1/static/media/cv-page.6eaa7320.PNG",
+    "static/media/cv.pdf": "/portfolio_v1/static/media/cv.832fd058.pdf",
+    "static/media/guess-number-app.gif": "/portfolio_v1/static/media/guess-number-app.3acdfef6.gif",
+    "static/media/me.jpg": "/portfolio_v1/static/media/me.cc8f9626.jpg",
+    "static/media/playground-page.gif": "/portfolio_v1/static/media/playground-page.391eac5c.gif",
+    "static/media/recipes-app.gif": "/portfolio_v1/static/media/recipes-app.50220547.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cf190ed.js",
+    "static/js/2.88d35f12.chunk.js",
+    "static/css/main.ddee4edd.chunk.css",
+    "static/js/main.bc3de487.chunk.js"
+  ]
+}
