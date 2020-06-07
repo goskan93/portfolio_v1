@@ -17,7 +17,7 @@ export default [
     description: "Play online for free.",
     image: playgroundGif,
     codeUrl: "https://github.com/goskan93/playground",
-    projectUrl: "",
+    projectUrl: "https://goskan93.github.io/playground/",
     technologies: ["react", "react-router"],
   },
   {
