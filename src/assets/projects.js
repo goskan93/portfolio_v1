@@ -14,7 +14,7 @@ export default [
   },
   {
     title: "Playground",
-    description: "Play online for free.",
+    description: "Play tic tac toe, memory or treasure hunt games for free.",
     image: playgroundGif,
     codeUrl: "https://github.com/goskan93/playground",
     projectUrl: "https://goskan93.github.io/playground/",
@@ -22,7 +22,7 @@ export default [
   },
   {
     title: "Recipes",
-    description: "Find the best recipes from all over the world.",
+    description: "Enjoy the best recipes from all over the world.",
     image: recipesGif,
     codeUrl: "https://github.com/goskan93/recipes-app",
     projectUrl: "https://expo.io/@goskan93/meal-app?release-channel=recipes-app",
