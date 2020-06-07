@@ -8,7 +8,7 @@ const SkillTable = () => {
           <tr>
             <th>I worked with</th>
             <th>I want to also work with</th>
-            <th>I currently learn</th>
+            <th>I am currently learning</th>
             <th>I want to learn</th>
           </tr>
         </thead>
@@ -19,7 +19,7 @@ const SkillTable = () => {
               <span>React.js</span>
             </td>
             <td>SCSS</td>
-            <td>node.js</td>
+            <td>GraphQL</td>
           </tr>
           <tr>
             <td>React Native/Redux</td>
@@ -31,17 +31,13 @@ const SkillTable = () => {
             <td>C#/Python</td>
             <td></td>
             <td>Typescript</td>
-            <td>GraphQL</td>
+            <td>Webpack</td>
           </tr>
           <tr>
             <td>MSSQL</td>
             <td></td>
             <td></td>
             <td>...and more!</td>
-          </tr>
-
-          <tr>
-            <td></td>
           </tr>
         </tbody>
       </table>

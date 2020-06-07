@@ -5,7 +5,11 @@ const About = () => {
   return (
     <article>
       <Info title="About me">
-        <p></p>
+        <p>
+          I consider myself as 'forever student' - never stop imporving my skills, knowledge and overcome my weaknesses. I am highly
+          motivated to get new experience, grown in my professional and personal life. I am ready to join the team, and share my experience,
+          good attitude and challenges with new collegues.
+        </p>
         <SkillTable />
       </Info>
       <Info title="Work">
